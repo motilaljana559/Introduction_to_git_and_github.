@@ -38,6 +38,11 @@ Now we are set to authenticate our local machine to our github account.
 At this point github does not know where to put my local folder or files. So I am going to create a empty folder named 'Introduction_to_git_and_github.' and then send (push) all of my files which is inside my this folder(it has to be current git folder).
 and then add the remote repository in the local machine. by 'git remote add origin git@github.com:motilaljana559/Introduction_to_git_and_github..git'
 ... run the command 'git remote -v' to see the current remote repository i.e if we push something it will be added to that repository.
+now force the git to locally consider only the current folder (the content of the folder which I will push to the github) by
+runnig git init on this current folder.
+
+to push the content of the current folder to the remote repository run the below command:
+'git push origin main'
 
 
 
